@@ -1,11 +1,11 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 
-import { classname } from 'helpers/classnames';
+import classname from 'helpers/classname';
 
 const b = classname('page');
 
-export default class MyDocument extends Document {
+export default class NextDocument extends Document {
     static async getInitialProps(ctx) {
         const initialProps = await Document.getInitialProps(ctx);
 
@@ -14,9 +14,9 @@ export default class MyDocument extends Document {
 
     render() {
         return (
-            <html>
+            <html className={b()}>
                 <Head />
-                <body className={b()}>
+                <body className={b('body')}>
                     <Main />
                     <NextScript />
                 </body>

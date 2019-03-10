@@ -1,0 +1,12 @@
+.page-hello
+{
+    &__content
+    {
+        margin: 10px 0 0;
+
+        &_error
+        {
+            color: #f00;
+        }
+    }
+}

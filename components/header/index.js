@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { classname } from 'helpers/classnames';
+import classname from 'helpers/classname';
 
 const b = classname('header');
 
@@ -8,7 +8,7 @@ class Header extends React.Component {
     render() {
         return (
             <header className={b()}>
-                Hello World
+                Header
             </header>
         );
     }

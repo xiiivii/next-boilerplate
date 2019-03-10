@@ -2,5 +2,8 @@
     "plugins": [
         "stylelint-scss"
     ],
+    "rules": {
+        "property-no-vendor-prefix": null
+    },
     "extends": "stylelint-config-iddqd"
 }

@@ -15,6 +15,10 @@ module.exports = (server, app) => {
         .get(render('index'));
 
     router
+        .route('/hello')
+        .get(render('hello'));
+
+    router
         .route('*')
         .get(render('errors/404'));
 
