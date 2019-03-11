@@ -1,7 +1,3 @@
-const path = require('path');
-
-process.env.NODE_CONFIG_DIR = path.join(__dirname, 'server', 'config');
-
 // FIX ME
 process.env.NODE_PATH = __dirname;
 require('module').Module._initPaths();
