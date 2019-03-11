@@ -1,7 +1,3 @@
-// FIX ME
-process.env.NODE_PATH = __dirname;
-require('module').Module._initPaths();
-
 const dev = process.env.NODE_ENV !== 'production';
 
 const app = require('next')({ dev });
