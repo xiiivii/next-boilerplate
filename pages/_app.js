@@ -6,6 +6,8 @@ import withRedux from 'next-redux-wrapper';
 import withReduxSaga from 'next-redux-saga';
 import createStore from 'store';
 
+import './_app.scss';
+
 class NextApp extends App {
     static async getInitialProps({ Component, ctx }) {
         let pageProps = {};
