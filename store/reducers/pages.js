@@ -35,6 +35,6 @@ function populatePageHelloSuccess(state, { content }) {
 function populatePageHelloError(state, { error }) {
     return {
         ...state,
-        hello: { status: 'error', content: error }
+        hello: { status: 'error', content: error.toString() }
     };
 }
