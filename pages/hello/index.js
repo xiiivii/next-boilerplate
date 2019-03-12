@@ -7,6 +7,8 @@ import Link from 'next/link';
 
 import classname from 'helpers/classname';
 
+import './index.scss';
+
 const b = classname('page-hello');
 
 class PageHello extends Component {
