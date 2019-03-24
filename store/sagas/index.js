@@ -1,4 +1,4 @@
-import pagesSaga from 'store/saga/pages';
+import pagesSaga from 'store/sagas/pages';
 
 import { all } from 'redux-saga/effects';
 
